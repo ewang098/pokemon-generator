@@ -1,0 +1,82 @@
+/*
+  Eric Wang
+  This code was created as part of assignment for CSE 154: Webprogramming
+
+  This is the styles sheet for the pokemon random generator. Flex box is used to allow
+  for dynamic adding of pokemon cards.
+*/
+
+body, button {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+body {
+  background: #8B0000;
+  font-size: 24px;
+  flex-direction: column;
+}
+
+footer {
+  font-size: 12px;
+  color: white;
+}
+
+header {
+  background: #BEC2CB;
+  margin: auto;
+  width: 60%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 25px;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+}
+
+.pokemon, #interface-bar, #display, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#display {
+  background: #FFEBEE;
+  border-right: #191f22 solid 7.5pt;
+  border-left: #191f22 solid 7.5pt;
+  border-bottom: #191f22 solid 7.5pt;
+  border-top: #191f22 solid 7.5pt;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.pokedex {
+  min-height: 100%;
+}
+
+.pokemonCard {
+  border-right: #191f22 solid 2pt;
+  border-left: #191f22 solid 2pt;
+  border-bottom: #191f22 solid 2pt;
+  border-top: #191f22 solid 2pt;
+  font-size: 14px;
+  width: 200px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
+
+.pokemonCard > li {
+  margin: 0 0 10px 0;
+}
