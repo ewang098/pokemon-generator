@@ -1,5 +1,5 @@
 # pokemon-generator
-:slot_machine:
+:slot_machine: https://ewang098.github.io/pokemon-generator/
 
 Practice with:
 
